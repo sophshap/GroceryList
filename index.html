@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery List</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- internal css in the head -->
+    <style>
+        body {
+            background-color: rgb(160, 141, 205);
+        }
+    </style>
+
 </head>
 
 <body>
     <!-- header here -->
+    <!-- example of inline css -->
     <header style="color: rgb(144, 0, 255);">
         Sophie's Grocery List!</header>
 
@@ -18,31 +27,39 @@
     <div>
 
 
-
+        <!-- pantry! -->
 
         <section>
             <h1>Pantry Items</h1>
         </section>
 
-        <h3 class="canned">Canned</h3>
-        <ul>
-            <li>Beans</li>
-            <li>Tuna</li>
-            <li>Corn</li>
-        </ul>
+        <div class="canned">
+            <h3>Canned</h3>
+            <ul>
+                <li>Beans</li>
+                <li>Tuna</li>
+                <li>Corn</li>
+            </ul>
+        </div>
 
 
 
-        <h3 class="dry">Dry Foods</h3>
-        <ul>
-            <li>Chips</li>
-            <li>Bread</li>
-            <li>Rice</li>
-        </ul>
+        <div class="dry">
+            <h3>Dry Foods</h3>
+            <ul>
+                <li>Chips</li>
+                <li>Bread</li>
+                <li>Rice</li>
+            </ul>
+        </div>
 
+        <!-- add image -->
+
+        <img class="first" src="https://irvingcares.org/wp-content/uploads/cartoon-pantry-hero.jpg">
 
     </div>
 
+    <!-- freezer! -->
 
     <div>
 
@@ -50,22 +67,33 @@
             <h1>Freezer Items</h1>
         </section>
 
-        <h3>Veggies</h3>
-        <ol>
-            <li>Carrots</li>
-            <li>Celery</li>
-            <li>Lettuce</li>
-        </ol>
+
+        <div class="veggies">
+
+            <h3>Veggies</h3>
+            <ol>
+                <li>Carrots</li>
+                <li>Celery</li>
+                <li>Lettuce</li>
+            </ol>
+
+        </div>
 
 
 
-        <h3>Snacks</h3>
-        <ol>
-            <li>Cookies</li>
-            <li>Candy</li>
-            <li>Popcorn</li>
-        </ol>
+        <div class="snacks">
+            <h3>Snacks</h3>
+            <ol>
+                <li>Cookies</li>
+                <li>Candy</li>
+                <li>Popcorn</li>
+            </ol>
+        </div>
 
+        <!-- add image -->
+
+        <img class="second"
+            src="https://static.vecteezy.com/system/resources/previews/004/606/155/original/simple-cartoon-icon-refrigerator-cartoon-illustration-vector.jpg">
 
     </div>
 
