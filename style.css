@@ -1,0 +1,18 @@
+* {
+    background-color: rgb(160, 141, 205);
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+section {
+    border: 2px black solid;
+    width: 500px;
+}
+
+.dry {
+    display: inline-block;
+}
