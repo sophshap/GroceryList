@@ -6,105 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery List</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-
-    <!-- internal css in the head -->
-    <style>
-        body {
-            background-color: rgb(160, 141, 205);
-        }
-    </style>
-
 </head>
 
 <body>
-    <!-- header here -->
-    <!-- example of inline css -->
-    <header style="color: rgb(144, 0, 255);">
-        Sophie's Grocery List!</header>
 
+    <div id="main-content">
 
-    <!-- sections for pantry and freezer items -->
-    <div>
-
-
-        <!-- pantry! -->
+        <header class="title">Sophie's Grocery List</header>
 
         <section>
-            <h1>Pantry Items</h1>
+            <h3 class="sectiontitle">Pantry Items</h3>
+            <div id="pantryitems" class="sectionrow">
+                <div id="canned" class="box">
+                    <h3>Canned Foods</h3>
+                    <ul>
+                        <li>Beans</li>
+                        <li>Tuna</li>
+                        <li>Corn</li>
+                    </ul>
+
+                </div>
+
+                <div id="dryfoods" class="box">
+                    <h3>Dry Foods</h3>
+                    <ul>
+                        <li>Chips</li>
+                        <li>Bread</li>
+                        <li>Rice</li>
+                    </ul>
+                </div>
+                <!-- image here -->
+                <img class="img" src="https://irvingcares.org/wp-content/uploads/cartoon-pantry-hero.jpg">
+
+            </div>
+
         </section>
-
-        <div class="canned">
-            <h3>Canned</h3>
-            <ul>
-                <li>Beans</li>
-                <li>Tuna</li>
-                <li>Corn</li>
-            </ul>
-        </div>
-
-
-
-        <div class="dry">
-            <h3>Dry Foods</h3>
-            <ul>
-                <li>Chips</li>
-                <li>Bread</li>
-                <li>Rice</li>
-            </ul>
-        </div>
-
-        <!-- add image -->
-
-        <img class="first" src="https://irvingcares.org/wp-content/uploads/cartoon-pantry-hero.jpg">
-
-    </div>
-
-    <!-- freezer! -->
-
-    <div>
-
+        <!-- second section -->
         <section>
-            <h1>Freezer Items</h1>
+            <h3 class="sectiontitle">Freezer Items</h3>
+            <div id="freezer" class="sectionrow">
+                <div id="veggies" class="box">
+                    <h3>Veggies</h3>
+                    <ol>
+                        <li>Carrots</li>
+                        <li>Celery</li>
+                        <li>Lettuce</li>
+                    </ol>
+
+                </div>
+
+                <div id="snacks" class="box">
+                    <h3>Snacks</h3>
+                    <ol>
+                        <li>Cookies</li>
+                        <li>Candy</li>
+                        <li>Popcorn</li>
+                    </ol>
+
+                </div>
+                <!-- image here -->
+                <img class="img"
+                    src="https://static.vecteezy.com/system/resources/previews/004/606/155/original/simple-cartoon-icon-refrigerator-cartoon-illustration-vector.jpg">
+
+
+            </div>
+
         </section>
 
 
-        <div class="veggies">
-
-            <h3>Veggies</h3>
-            <ol>
-                <li>Carrots</li>
-                <li>Celery</li>
-                <li>Lettuce</li>
-            </ol>
-
-        </div>
 
 
 
-        <div class="snacks">
-            <h3>Snacks</h3>
-            <ol>
-                <li>Cookies</li>
-                <li>Candy</li>
-                <li>Popcorn</li>
-            </ol>
-        </div>
 
-        <!-- add image -->
 
-        <img class="second"
-            src="https://static.vecteezy.com/system/resources/previews/004/606/155/original/simple-cartoon-icon-refrigerator-cartoon-illustration-vector.jpg">
+
+
+
+
+
+
+
+
+
+
 
     </div>
-
-
-
-
-
-
-    <!-- footer here -->
-    <footer></footer>
-
 
 </body>
 
