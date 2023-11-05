@@ -1,13 +1,6 @@
 /* external css */
 
-body {
-    width: 100vw;
-    min-height: 100vh;
-    background-color: rgb(205, 190, 211);
 
-    display: flex;
-    justify-content: center;
-}
 
 #main-content {
 
@@ -19,9 +12,7 @@ body {
 }
 
 
-header {
-    background-color: rgb(127, 204, 255);
-}
+
 
 
 section {
